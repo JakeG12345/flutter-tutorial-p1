@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.red[600]
     ),
     body: Center(
-      child: Image.asset('assets/one-77.jpg'),
+      child: IconButton(onPressed: () {print("you clicked me");}, icon: Icon(Icons.alternate_email, color: Colors.amber,))
     ),
     floatingActionButton: FloatingActionButton(
       onPressed: () => (),
